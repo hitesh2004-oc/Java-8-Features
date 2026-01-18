@@ -15,6 +15,6 @@ public class P6 {
 		
 		System.out.println(upper.apply("hitesh"));
 		System.out.println(f1.apply("hitesh malviya"));
-		
+		 
 	}
 }
