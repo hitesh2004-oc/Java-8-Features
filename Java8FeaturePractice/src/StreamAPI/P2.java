@@ -1,5 +1,4 @@
 package StreamAPI;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -50,8 +49,6 @@ public class P2 {
 	  
 	  // Print name Not Startwith h //
 	  name.stream().filter(i ->! i.startsWith("h")).map(f -> f.toUpperCase()).
-	  forEach(e -> System.out.println(e));
-	  
+	  forEach(e -> System.out.println(e));  
 	}
-
 }
