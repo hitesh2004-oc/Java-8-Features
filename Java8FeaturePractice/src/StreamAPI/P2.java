@@ -50,5 +50,8 @@ public class P2 {
 	  // Print name Not Startwith h //
 	  name.stream().filter(i ->! i.startsWith("h")).map(f -> f.toUpperCase()).
 	  forEach(e -> System.out.println(e));  
+
+	  // Use of Limit method
+	  num.stream().limit(3).forEach(e -> System.out.println(e));  
 	}
 }
